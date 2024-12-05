@@ -27,10 +27,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: #F14B4B15;
-    border: 1px solid #F14B4B;
+    background: #000000;
+    border: 1px solid #4bc2f1;
     border-radius: 50px;
-    color: #F14B4B;
+    color: #ebf14b;
     text-align: center;
 }
 .interest *{
@@ -168,4 +168,8 @@
     .iteam p{
         font-size: 0.8rem;
     }
+    .interest h3{
+        font-size: 2rem;
+    }
+   
 }

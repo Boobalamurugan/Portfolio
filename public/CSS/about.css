@@ -21,7 +21,7 @@
 }
 .heading h2{
     font-size: 3rem;
-    color: #E7E9E9;
+    color: #b0ca3c;
 }
 .heading h3{
     font-size: 2rem;
@@ -29,7 +29,7 @@
 }
 .heading h4{
     font-size: 1rem;
-    color: #87F2B1;
+    color: #c975e0;
 }
 .aboutMe{
     grid-area: para;
@@ -51,7 +51,7 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
-    background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1);
+    background: linear-gradient(to right, #639114, #a8ffde, #a8ffde, #36FBB1);
     filter: blur(0.5px) grayscale(0.8);
     transition: 0.5s all linear;
 }
@@ -62,7 +62,7 @@
     transition: 0.5s all linear;
 }
 .img:hover{
-    filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black);
+    filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px rgb(0, 0, 0));
 }
 .img:hover > img{
     transform: scale(1.1);
@@ -130,14 +130,21 @@
 }
 @media only screen and (max-width: 425px) {
     .about h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .about hr{
         width: 33%;
     }
+    .aboutMe p{
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width: 320px) {
     .about h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .aboutMe p{
+        font-size: x-small;
     }
 }

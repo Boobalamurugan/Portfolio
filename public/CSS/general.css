@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #061320;
+    background-color:#180104 ;
     margin: 0;
     padding: 0%;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +13,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #36FBB1;
+    color: #0cf3ff;
     font-family: 'Inconsolata', monospace;
 }
 .part{
@@ -57,7 +57,7 @@ section{
 
 /* Right Section */
 .right{
-    color: #36FBB1;
+    color: hwb(63 6% 6%);
     right: 0;
 }
 .right h2{
@@ -99,24 +99,24 @@ button{
     min-width: 130px;
     height: 40px;
     margin: 0 auto;
-    color: #36FBB1;
-    border: 1px solid #36FBB1;
+    color: #ffffff;
+    border: 1px solid #fb365d;
     border-radius: 50px;
-    background-color: #36FBB125;
+    background-color: #0a010525;
     padding: 5px 10px;
     font-weight: 500;
     font-size: 1rem;
     font-family: 'Inconsolata', monospace;
     cursor: pointer;
     transition: all 0.2s linear;
-    box-shadow: 0 3px 2px #36FBB1;
+    box-shadow: 0 3px 2px #fb367e;
 }
 button:hover {
-    box-shadow: 0 2px 2px #36FBB1;
+    box-shadow: 0 2px 2px #a72b0c;
     top: 1px;
 }
 button:active {
-    box-shadow: 0 0 #36FBB1;
+    box-shadow: 0 0 #cdfb36;
     top: 3px;
 }
 @media only screen and (max-width: 850px) {

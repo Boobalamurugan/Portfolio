@@ -47,7 +47,7 @@
     opacity: 0;
     z-index: 100000;
 }
-.first::before{
+/* .first::before{
     position: absolute;
     height: 50px;
     width: 50px;
@@ -59,7 +59,7 @@
     background-color: #061320;
     box-shadow: 0px 0px 15px black;
     border-radius: 50%;
-}
+} */
 .second::before{
     position: absolute;
     height: 50px;
@@ -69,8 +69,8 @@
     align-items: center;
     content: url(../icons/mail.svg);
     transform: rotate(-40deg);
-    background-color: #061320;
-    box-shadow: 0px 0px 15px black;
+    background-color: #5e0606;
+    box-shadow: 0px 0px 15px rgb(61, 3, 3);
     border-radius: 50%;
     z-index: 1000;
 }
@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url(../icons/github.svg);
+    content: url(../icons/github-project.svg);
     transform: rotate(-70deg);
     background-color: #061320;
     box-shadow: 0px 0px 15px black;
@@ -97,7 +97,7 @@
     align-items: center;
     content: url(../icons/linkedin.svg);
     transform: rotate(-100deg);
-    background-color: #061320;
+    background-color: #1100ff;
     box-shadow: 0px 0px 15px black;
     border-radius: 50%;
     z-index: 2;
