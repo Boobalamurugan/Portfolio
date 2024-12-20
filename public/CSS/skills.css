@@ -105,6 +105,9 @@
     grid-column: 3;
     grid-row: 3;
 }
+
+
+
 @media only screen and (max-width: 850px) {
     .skills .wrap{
         padding: 0 20px;

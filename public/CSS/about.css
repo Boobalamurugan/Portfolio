@@ -29,7 +29,8 @@
 }
 .heading h4{
     font-size: 1rem;
-    color: #87F2B1;
+    color: #F14B4B;
+    font-family: 'Inconsolata', monospace;
 }
 .aboutMe{
     grid-area: para;
