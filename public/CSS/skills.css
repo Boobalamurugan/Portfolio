@@ -9,7 +9,7 @@
     margin: 0;
     width: 80%;
 }
-.skills .wrap > p{
+.skills .wrap > li{
     grid-area: text;
     width: 75%;
     text-align: center;
@@ -105,6 +105,12 @@
     grid-column: 3;
     grid-row: 3;
 }
+.skillText{
+    color: #E7E9E9;
+    font-size: 1.5rem;
+    /* max-width: 80%; */
+}
+
 
 
 

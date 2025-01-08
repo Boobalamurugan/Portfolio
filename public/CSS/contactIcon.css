@@ -4,6 +4,8 @@
     bottom: 30px;
     right: 30px;
     border-radius: 50%;
+    z-index: 99999;
+
 }
 .contactIcon, .closeIcon{
     position: absolute;
@@ -11,7 +13,7 @@
     right: 0px;
     height: 50px;
     width: 50px;
-    z-index: 2;
+    z-index: 9999999;
 }
 .closeIcon{
     opacity: 0;
@@ -45,7 +47,7 @@
     right: 0;
     transform-origin: right;
     opacity: 0;
-    z-index: 100000;
+    z-index: 99999;
 }
 .first::before{
     position: absolute;

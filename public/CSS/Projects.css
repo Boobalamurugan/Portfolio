@@ -122,9 +122,9 @@
     }
 }
 
-@media (max-width:450px) {
+/* @media (max-width:450px) {
     .github-link {
-        font-size: 0.9rem; /* Adjust text size for smaller screens */
+        font-size: 0.9rem; 
 
     }
 
@@ -136,7 +136,7 @@
     }
 
     
-}
+} */
 
 /* Mobile View (for screens smaller than 768px) */
 @media (max-width: 768px) {
@@ -154,13 +154,33 @@
 /* Extra Small View (for screens smaller than 480px) */
 @media (max-width: 480px) {
     .project-card {
-        width: 100%; /* Full width for smaller screens */
+         /* Full width for smaller screens */
         padding: 8px; /* Adjust padding */
+        margin-left: 1rem;
+        margin-top: 4rem;
     }
 
     .project-container {
-        padding: 10px; /* Add padding around the container */
+        /* padding: 10px; Add padding around the container */
+        max-width: 300px;
+        width: 100%;
+        
+
+
+        
     }
+    .github-link{
+        margin-left: -1rem;
+    }
+    /* .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        justify-content: none;
+        align-items: none;
+    } */
 }
 
 
