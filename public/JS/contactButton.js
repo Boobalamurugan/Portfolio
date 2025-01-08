@@ -45,15 +45,15 @@ function hide() {
     closeIcon.classList.add("hideIcon");
     contactIcon.classList.add("showIcon");
 }
-firstPlatform.addEventListener('click',()=>{
-    window.open("https://twitter.com/manvar_prit");
-});
+// firstPlatform.addEventListener('click',()=>{
+//     window.open("https://twitter.com/manvar_prit");
+// });
 secondPlatform.addEventListener('click',()=>{
-    window.open("mailto:pritmanvar1109@gmail.com");
+    window.open("mailto:boobalamurugan.btech@gmail.com");
 });
 thirdPlatform.addEventListener('click',()=>{
-    window.open("https://github.com/pritmanvar");
+    window.open("https://github.com/Boobalamurugan");
 });
 fourthPlatform.addEventListener('click',()=>{
-    window.open("https://www.linkedin.com/in/prit-manvar-36ab97204/");
+    window.open("https://www.linkedin.com/in/boobalamurugan/");
 });
