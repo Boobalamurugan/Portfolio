@@ -1,0 +1,19 @@
+{
+  "name": "07-portfolio",
+  "version": "1.0.0",
+  "description": "> Simple PORTFOLIO WEBSITE developed by using html,javascript,css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boobalamurugan/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boobalamurugan/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Boobalamurugan/Portfolio#readme"
+}
