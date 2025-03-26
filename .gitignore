@@ -2,3 +2,5 @@
 .github/
 firebase.json
 .firebaserc
+__pycache__/
+_venv/
